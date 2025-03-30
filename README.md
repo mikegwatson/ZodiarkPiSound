@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 &nbsp;
 
 ### Prerequisites
-***Note*** You can **not** use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
+***Note*** You can _**not**_ use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
 
 &nbsp;
 
