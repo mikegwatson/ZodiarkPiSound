@@ -8,10 +8,10 @@ https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 ***Note*** Can not use a dual axis encoder with this setup, since it uses the extra I2C pins
 
 ### Wiring
-Wire SparkFun Qwiic Buzzer as follows:
+Wire SparkFun Qwiic Buzzer As follows:
 ![ZodiarkPiQwiicBuzzer1](https://github.com/user-attachments/assets/e8fe0486-fe48-446f-a433-ebbc0ed86099)
 
-Prepare To Hide Buzzer:
+Prepare To Hide The Buzzer:
 ![ZodiarkPiQwiicBuzzer2](https://github.com/user-attachments/assets/f68df095-2718-4d6e-a544-9b7926785d68)
 
 Hidden Buzzer:
