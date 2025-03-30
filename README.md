@@ -18,7 +18,7 @@ Hidden Buzzer:
 ![ZodiarkPiQwiicBuzzer3](https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d)
 
 ### QMK Code
-1. // copy github ```sound``` directory to qmk_firmware/keyboards/aleblazer/zodiarkpi/
+1. copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
 
 2. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h      //add or uncomment the below lines to set RP2040 I2C pins
 ```#define I2C_DRIVER I2CD0```                                 
