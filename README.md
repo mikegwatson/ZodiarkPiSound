@@ -1,4 +1,4 @@
-# ZodiarkPi/QMK I<sup>2</sup>C Keyboard Sound
+# ZodiarkPi / QMK I<sup>2</sup>C Keyboard Sound
 Add Sound To Your ZodiarkPi Keyboard Using [SparkFun Qwiic Buzzer BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html)
 
 &nbsp;
