@@ -25,7 +25,7 @@ Hidden Buzzer:<br>
 
 &nbsp;
 
-### QMK Code
+### QMK Code Setup
 1. Copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
 
 2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I<sup>2</sup>C pins)
