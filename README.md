@@ -3,7 +3,7 @@ Add Sound To Your ZodiarkPi Keyboard Using [SparkFun Qwiic Buzzer BOB-24474](htt
 <br><br>
 
 ### Sound Demo
-https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
+https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b<br><br>
 
 
 ### Prerequisites
