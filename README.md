@@ -78,3 +78,8 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   sound_effect_2(VOLUME_MAX)
 }
 ``` 
+
+&nbsp;
+
+### Need Help
+Visit the [Discord server](https://discord.gg/BCSbXwskVt) #zodiarkpi channel or open a bug.
