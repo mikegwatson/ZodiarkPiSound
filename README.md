@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 ***Note*** Can not use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
 
 ### Wiring
-Wire SparkFun Qwiic Buzzer As follows:
+Wire SparkFun Qwiic Buzzer As follows:<br>
 <img src="https://github.com/user-attachments/assets/e8fe0486-fe48-446f-a433-ebbc0ed86099" alt="ZodiarkPiQwiicBuzzer1" width="378" height="504">
 
 Prepare To Hide The Buzzer:
