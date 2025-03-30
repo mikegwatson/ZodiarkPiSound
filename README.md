@@ -55,7 +55,7 @@ I2C_DRIVER_REQUIRED = yes
 ```
 i2c_init();                                                  //initialize the I2C bus
 if (I2C_qwiic_buzzer_connected()) {
-  uprintf("I2C qwiick buzzer found at: 0x%02X\n", I2C_ADDR);  //use qmk console on command line to see if qwiic buzzer foound
+  uprintf("I2C qwiick buzzer found at: 0x%02X\n", I2C_ADDR); //use qmk console to see if qwiic buzzer found
 }
 ```
 
