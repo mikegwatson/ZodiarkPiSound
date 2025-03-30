@@ -67,6 +67,6 @@ if (I2C_qwiic_buzzer_connected()) {
 9. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c``` (play a sound every time a key is pressed)
 ```
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {  
-sound_effect_2(VOLUME_MAX)
+  sound_effect_2(VOLUME_MAX)
 }
 ``` 
