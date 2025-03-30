@@ -2,7 +2,7 @@
 Add Sound To Your ZodiarkPi Keyboard Using [SparkFun Qwiic Buzzer BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html)
 
 ### Sound Demo
-https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
+<p align="center">https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b</p>
 
 ### Prerequisites
 ***Note*** Can not use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
