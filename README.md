@@ -1,11 +1,11 @@
-# ZodiarkPi/QMK I2C Keyboard Sound
+# ZodiarkPi/QMK I<sup>2</sup>C Keyboard Sound
 Add Sound To Your ZodiarkPi Keyboard Using [SparkFun Qwiic Buzzer BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html)
 
 ### Sound Demo
 https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 
 ### Prerequisites
-***Note*** Can not use a dual axis encoder with this setup, since it uses the extra I2C pins
+***Note*** Can not use a dual axis encoder with this setup, since it uses the extra I<sup>2</sub>C pins
 
 ### Wiring
 Wire SparkFun Qwiic Buzzer As follows:
@@ -20,14 +20,14 @@ Hidden Buzzer:
 ### QMK Code
 1. Copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
 
-2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I2C pins)
+2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I<sup>2</sup>C pins)
 ```
 #define I2C_DRIVER I2CD0
 #define I2C1_SCL_PIN GP17                                        //Pin 22 SET I2C1 HERE FOR I2C0
 #define I2C1_SDA_PIN GP16                                        //Pin 21 SET I2C1 HERE FOR I2C0
 ```
 
-3. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/halconf.h```     (add or uncomment the below line to enable I2C in HAL)
+3. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/halconf.h```     (add or uncomment the below line to enable I<sup>2</sup>C in HAL)
 ```
 #define HAL_USE_I2C TRUE
 ```
@@ -41,7 +41,7 @@ Hidden Buzzer:
 #define RP_I2C_USE_I2C1 FALSE
 ```
 
-5. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/rules.mk```      (add or uncomment the below line to enable the I2C driver)
+5. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/rules.mk```      (add or uncomment the below line to enable the I<sup>2</sup>C driver)
 ```
 I2C_DRIVER_REQUIRED = yes
 ```
