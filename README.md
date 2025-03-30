@@ -15,7 +15,7 @@ Prepare To Hide The Buzzer:<br>
 <img src="https://github.com/user-attachments/assets/f68df095-2718-4d6e-a544-9b7926785d68" alt="ZodiarkPiQwiicBuzzer2" width="378" height="504">
 
 Hidden Buzzer:<br>
-<img src="https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d)" alt="ZodiarkPiQwiicBuzzer3" width="378" height="504">
+<img src="https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d" alt="ZodiarkPiQwiicBuzzer3" width="378" height="504">
 <br><br>
 ### QMK Code
 1. Copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
