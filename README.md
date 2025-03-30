@@ -28,7 +28,8 @@ Hidden Buzzer:
 ```
 
 3. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/halconf.h```     (add or uncomment the below line to enable I2C in HAL)
-```#define HAL_USE_I2C TRUE
+```
+#define HAL_USE_I2C TRUE
 ```
 
 4. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/mcuconf.h```     (add or uncomment the below lines to use IC20)
