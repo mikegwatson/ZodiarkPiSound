@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 
 ### Wiring
 Wire SparkFun Qwiic Buzzer As follows:
-<img src="https://github.com/user-attachments/assets/e8fe0486-fe48-446f-a433-ebbc0ed86099" alt="ZodiarkPiQwiicBuzzer1" width="756" height="1008">
+<img src="https://github.com/user-attachments/assets/e8fe0486-fe48-446f-a433-ebbc0ed86099" alt="ZodiarkPiQwiicBuzzer1" width="378" height="504">
 
 Prepare To Hide The Buzzer:
 ![ZodiarkPiQwiicBuzzer2](https://github.com/user-attachments/assets/f68df095-2718-4d6e-a544-9b7926785d68)
