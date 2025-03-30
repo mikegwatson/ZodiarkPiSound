@@ -1,7 +1,7 @@
 # ZodiarkpiSound
 Add Sound To Your ZodiarkPi Keyboard
 
-##ZodiarkPi Sound Demo
-<video src='https://github.com/user-attachments/assets/5a3fd509-a87d-47f7-9dac-fc842bd2e0a4' width=180/>
-https://github.com/user-attachments/assets/5a3fd509-a87d-47f7-9dac-fc842bd2e0a4
+##ZodiarkPi Keyboard Sound Demo
+<video src='https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b' width=50/>
+https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 
