@@ -10,7 +10,9 @@ https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 
 ### Prerequisites
 ***Note*** You can _not_ use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
-<br><br>
+
+&nbsp;
+
 ### Wiring
 Wire SparkFun Qwiic Buzzer As Shown:<br>
 <img src="https://github.com/user-attachments/assets/e8fe0486-fe48-446f-a433-ebbc0ed86099" alt="ZodiarkPiQwiicBuzzer1" width="378" height="504">
@@ -20,7 +22,9 @@ Prepare To Hide The Buzzer:<br>
 
 Hidden Buzzer:<br>
 <img src="https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d" alt="ZodiarkPiQwiicBuzzer3" width="378" height="504">
-<br><br>
+
+&nbsp;
+
 ### QMK Code
 1. Copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
 
