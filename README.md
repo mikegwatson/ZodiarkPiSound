@@ -51,7 +51,7 @@ I2C_DRIVER_REQUIRED = yes
 #include "sound/qwiic_buzzer.c"
 ```
 
-7. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add the below lines to ```void keyboard_post_init_kb(void)``` function)
+7. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add below lines to ```void keyboard_post_init_kb(void)```)
 ```
 i2c_init();                                                  //initialize the I2C bus
   if (I2C_qwiic_buzzer_connected()) {
