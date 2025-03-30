@@ -2,5 +2,5 @@
 Add Sound To Your ZodiarkPi Keyboard
 
 ##ZodiarkPi Sound Demo
-https://github.com/user-attachments/assets/d1ac7535-c687-44ca-b037-51e539d82ed9
+https://github.com/user-attachments/assets/5a3fd509-a87d-47f7-9dac-fc842bd2e0a4
 
