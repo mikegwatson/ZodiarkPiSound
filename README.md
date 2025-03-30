@@ -15,6 +15,7 @@ Wire SparkFun Qwiic Buzzer as follows:
 ![ZodiarkPiQwiicBuzzer2](https://github.com/user-attachments/assets/f68df095-2718-4d6e-a544-9b7926785d68)
 
 ### Hidden Buzzer:
-![ZodiarkPiQwiicBuzzer3](https://github.com/user-attachments/assets/45be8c99-78e9-40b1-a87d-878342d60f81)
+![ZodiarkPiQwiicBuzzer3](https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d)
+
 
 
