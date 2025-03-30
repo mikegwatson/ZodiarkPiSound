@@ -5,7 +5,7 @@ Add Sound To Your ZodiarkPi Keyboard Using [SparkFun Qwiic Buzzer BOB-24474](htt
 <p align="center">https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b</p>
 
 ### Prerequisites
-***Note*** Can not use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
+***Note*** You can _not_ use a dual axis encoder with this setup, since it uses the extra I<sup>2</sup>C pins
 
 ### Wiring
 Wire SparkFun Qwiic Buzzer As follows:<br>
@@ -14,9 +14,8 @@ Wire SparkFun Qwiic Buzzer As follows:<br>
 Prepare To Hide The Buzzer:<br>
 <img src="https://github.com/user-attachments/assets/f68df095-2718-4d6e-a544-9b7926785d68" alt="ZodiarkPiQwiicBuzzer2" width="378" height="504">
 
-Hidden Buzzer:
-![ZodiarkPiQwiicBuzzer3](https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d)
-
+Hidden Buzzer:<br>
+<img src="https://github.com/user-attachments/assets/a4206b62-00a4-41c0-b92e-fb1d38929b1d)" alt="ZodiarkPiQwiicBuzzer3" width="378" height="504">
 ### QMK Code
 1. Copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
 
