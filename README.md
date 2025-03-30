@@ -11,7 +11,7 @@ Add Sound To Your ZodiarkPi Keyboard Using [SparkFun Qwiic Buzzer BOB-24474](htt
 Wire SparkFun Qwiic Buzzer As follows:<br>
 <img src="https://github.com/user-attachments/assets/e8fe0486-fe48-446f-a433-ebbc0ed86099" alt="ZodiarkPiQwiicBuzzer1" width="378" height="504">
 
-Prepare To Hide The Buzzer:
+Prepare To Hide The Buzzer:<br>
 <img src="https://github.com/user-attachments/assets/f68df095-2718-4d6e-a544-9b7926785d68" alt="ZodiarkPiQwiicBuzzer2" width="378" height="504">
 
 Hidden Buzzer:
