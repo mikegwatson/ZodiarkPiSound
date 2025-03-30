@@ -1,5 +1,5 @@
 # ZodiarkPi / QMK I<sup>2</sup>C Keyboard Sound
-QMK Driver To Add Sound To A [ZodiarkPi Keyboard](https://www.splitlogic.xyz/shop/splitlogic/p/zodiarkpi), or QMK Keyboard, Using The [SparkFun I<sup>2</sup>C Qwiic Buzzer BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html) 
+QMK Driver To Add Sound To A [ZodiarkPi Keyboard](https://www.splitlogic.xyz/shop/splitlogic/p/zodiarkpi), or QMK Keyboard, Using The [SparkFun I<sup>2</sup>C Qwiic Buzzer - BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html) 
 
 &nbsp;
 
