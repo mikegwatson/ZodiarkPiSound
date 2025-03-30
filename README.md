@@ -27,35 +27,45 @@ Hidden Buzzer:
 #define I2C1_SDA_PIN GP16                                        //Pin 21 SET I2C1 HERE FOR I2C0
 ```
 
-3. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/halconf.h     //add or uncomment the below line to enable I2C in HAL
-```#define HAL_USE_I2C TRUE```
+3. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/halconf.h```     (add or uncomment the below line to enable I2C in HAL)
+```#define HAL_USE_I2C TRUE
+```
 
-4. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/mcuconf.h     //add or uncomment the below lines to use IC20 
-```#undef RP_I2C_USE_I2C0
+4. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/mcuconf.h```     (add or uncomment the below lines to use IC20)
+```
+#undef RP_I2C_USE_I2C0
 #define RP_I2C_USE_I2C0 TRUE
 
 #undef RP_I2C_USE_I2C1
 #define RP_I2C_USE_I2C1 FALSE
 ```
 
-5. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/rules.mk      //add or uncomment the below line to enable the I2C driver
-```I2C_DRIVER_REQUIRED = yes```
-
-6. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c   //add the below lines to the top of the file
-```#include "sound/qwiic_buzzer.c"```                            
-
-7. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c   //add the below lines to ```void keyboard_post_init_kb(void)``` function
- ```i2c_init();                                                  //initialize the I2C bus
-    if (I2C_qwiic_buzzer_connected()) {
-      uprintf("I2C qwick buzzer found at address 0x%02X\n", I2C_ADDR);
-    }
+5. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/rules.mk```      (add or uncomment the below line to enable the I2C driver)
+```
+I2C_DRIVER_REQUIRED = yes
 ```
 
-8. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c //add the below line to the top of the file
-```#include "../../sound/qwiic_buzzer.h"```
+6. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add the below lines to the top of the file)
+```
+#include "sound/qwiic_buzzer.c"
+```
 
-9. edit qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c //play a sound every time a key is pressed
-```bool process_record_user(uint16_t keycode, keyrecord_t *record) {  
+7. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add the below lines to ```void keyboard_post_init_kb(void)``` function)
+```
+i2c_init();                                                  //initialize the I2C bus
+  if (I2C_qwiic_buzzer_connected()) {
+    uprintf("I2C qwick buzzer found at address 0x%02X\n", I2C_ADDR);
+  }
+```
+
+8. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c``` (add the below line to the top of the file)
+```
+#include "../../sound/qwiic_buzzer.h"
+```
+
+9. edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c``` (play a sound every time a key is pressed)
+```
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {  
 sound_effect_2(VOLUME_MAX)
 }
 ``` 
