@@ -1,5 +1,5 @@
 # ZodiarkPi / QMK I<sup>2</sup>C Keyboard Sound
-A QMK sound driver for a [ZodiarkPi keyboard](https://www.splitlogic.xyz/shop/splitlogic/p/zodiarkpi), or QMK keyboard, using the [SparkFun I<sup>2</sup>C Qwiic Buzzer - BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html) 
+A QMK sound driver for a [ZodiarkPi] keyboard(https://www.splitlogic.xyz/shop/splitlogic/p/zodiarkpi), or QMK(https://github.com/qmk/qmk_firmware) keyboard, using the [SparkFun I<sup>2</sup>C Qwiic Buzzer - BOB-24474](https://www.sparkfun.com/sparkfun-qwiic-buzzer.html) 
 
 &nbsp;
 
