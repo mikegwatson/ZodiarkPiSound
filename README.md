@@ -59,12 +59,13 @@ I2C_DRIVER_REQUIRED = yes
 #include "sound/qwiic_buzzer.c"
 ```
 
-7. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add below lines to ```void keyboard_post_init_kb(void)```)
+7. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add below lines to ```void keyboard_post_init_kb(void)``` function)
 ```
 i2c_init();                                                      //initialize the I2C bus
 if (I2C_qwiic_buzzer_connected()) {
   uprintf("I2C qwiick buzzer found at: 0x%02X\n", I2C_ADDR);     //use 'qmk console' on PC to see if buzzer found
 }
+sound_effect_0(VOLUME_MID);                                      //play startup sound when the keyboard boots     
 ```
 
 8. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c``` (add the below line to the top of the file)
