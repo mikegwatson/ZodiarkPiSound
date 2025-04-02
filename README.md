@@ -27,7 +27,7 @@ Hidden Buzzer:<br>
 
 ### QMK ZodiarkPi Environment Setup 
 #### This is how I did it with Debian Linux, but there may be a better way to do this:
-1. ```git clone https://github.com/Aleblazer/qmk_firmware.git```<pre>       </pre>(clone QMK)
+1. ```git clone https://github.com/Aleblazer/qmk_firmware.git```&nbsp;&nbsp;&nbsp;(clone QMK)
    
 2. ```cd qmk_firmware```                                               (goto QMK directory)
 
