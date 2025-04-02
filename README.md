@@ -46,7 +46,7 @@ Hidden Buzzer:<br>
 &nbsp;
 
 ### QMK Sound Code
-1. Clone SparkFun Qwiic Buzzer repo and add sound directory
+1. Clone SparkFun Qwiic Buzzer repo and add sound directory to ZodiarkPi QMK
 ```
 git clone https://github.com/mikegwatson/ZodiarkPiSound.git
 cd ZodiarkPiSound
