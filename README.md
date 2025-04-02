@@ -26,18 +26,18 @@ Hidden Buzzer:<br>
 &nbsp;
 
 ### QMK ZodiarkPi Environment Setup 
-#### This is how I did it with Debian Linux, but your milage may vary:
+#### This is how I did it with Debian Linux, but there may be a better way to do this:
 1. ```git clone https://github.com/Aleblazer/qmk_firmware.git```       (clone QMK)
    
 2. ```cd qmk_firmware```                                               (goto QMK directory)
 
-3. ```git branch -v -a```
+3. ```git branch -v -a```                                              (list branches)
 
-4. ```git switch zodiarkpi```
+4. ```git switch zodiarkpi```                                          (switch branch to zodiarkpi)
 
 5. ```ls ~/Documents/qmk_firmware/keyboards/aleblazer```               (should now see zodiarkpi directory)
 
-6. ```make git-submodule```
+6. ```make git-submodule```                                            (download submodules)
 
 7. ```nano keyboards/aleblazer/zodiarkpi/zodiarkpi.c```                (comment/uncomment to match your display & encoders)
 
