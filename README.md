@@ -52,7 +52,7 @@ git clone https://github.com/mikegwatson/ZodiarkPiSound.git
 cd ZodiarkPiSound
 mv ./sound keyboards/aleblazer/zodiarkpi/
 ```
-If ```ls qmk_firmware/keyboards/aleblazer/zodiarkpi/``` should now see: *images/ keymaps/ sound/* directories.
+```ls qmk_firmware/keyboards/aleblazer/zodiarkpi/``` should now see: **images/ keymaps/ sound/** directories.
 
 2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I<sup>2</sup>C pins)
 ```
