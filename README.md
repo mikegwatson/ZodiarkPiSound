@@ -93,8 +93,8 @@ sound_effect_0(VOLUME_MID);                                      //play startup 
 #include "../../sound/qwiic_buzzer.h"
 ```
 
-9. Recompile / Flash the new code for your Zodiark Pi and if all worked properly you should hear a sound on bootup of your keyboard.
-   You can also add additional code to your keymap file using the ```process_record_user(uint16_t keycode, keyrecord_t *record)``` to play a sound. 
+9. Recompile / flash the new code for your Zodiark Pi and if all worked properly you should hear a sound on bootup of your keyboard.
+   You can also add additional code to your keymap file to play sounds using ```process_record_user(uint16_t keycode, keyrecord_t *record)```. 
 
 &nbsp;
 
