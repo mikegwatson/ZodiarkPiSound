@@ -57,8 +57,8 @@ mv ./sound keyboards/aleblazer/zodiarkpi/                       //sound dir incl
 2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I<sup>2</sup>C pins)
 ```
 #define I2C_DRIVER I2CD0
-#define I2C1_SCL_PIN GP17                                        //Pin 22 SET I2C1 HERE FOR I2C0
-#define I2C1_SDA_PIN GP16                                        //Pin 21 SET I2C1 HERE FOR I2C0
+#define I2C1_SCL_PIN GP17                                       //Pin 22 SET I2C1 HERE FOR I2C0
+#define I2C1_SDA_PIN GP16                                       //Pin 21 SET I2C1 HERE FOR I2C0
 ```
 
 3. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/halconf.h```     (add or uncomment the below line to enable I<sup>2</sup>C in HAL)
@@ -87,11 +87,11 @@ I2C_DRIVER_REQUIRED = yes
 
 7. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/zodiarkpi.c```   (add below lines to ```void keyboard_post_init_kb(void)``` function)
 ```
-i2c_init();                                                      //initialize the I2C bus
+i2c_init();                                                     //initialize the I2C bus
 if (I2C_qwiic_buzzer_connected()) {
-  uprintf("I2C qwiick buzzer found at: 0x%02X\n", I2C_ADDR);     //use 'qmk console' on PC to see if buzzer found
+  uprintf("I2C qwiick buzzer found at: 0x%02X\n", I2C_ADDR);    //use 'qmk console' on PC to see if buzzer found
 }
-sound_effect_0(VOLUME_MID);                                      //play startup sound when the keyboard boots     
+sound_effect_0(VOLUME_MID);                                     //play startup sound when the keyboard boots     
 ```
 
 8. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c``` (add the below line to the top of the file)
