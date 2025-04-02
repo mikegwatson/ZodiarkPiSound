@@ -94,10 +94,7 @@ sound_effect_0(VOLUME_MID);                                      //play startup 
 ```
 
 9. Recompile / Flash the new code for your Zodiark Pi and if all worked properly you should hear a sound on bootup of your keyboard.
-   You can add additional code to your keymap file, so that every time a key is pressed you can play a sound by calling the below function:
-```
-bool process_record_user(uint16_t keycode, keyrecord_t *record) 
-``` 
+   You can also add additional code to your keymap file using the ```process_record_user(uint16_t keycode, keyrecord_t *record)``` to play a sound. 
 
 &nbsp;
 
