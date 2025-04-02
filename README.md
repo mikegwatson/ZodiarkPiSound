@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/96be4976-08ce-485e-ae0a-f66f3da4de4b
 
 &nbsp;
 
-### Prerequisites
+### Achtung!
 ***Note*** You can _**not**_ use a dual axis encoder with the ZodiarkPi and this buzzer, since it uses the extra I<sup>2</sup>C pins
 
 &nbsp;
@@ -25,7 +25,26 @@ Hidden Buzzer:<br>
 
 &nbsp;
 
-### QMK Code Setup
+### QMK ZodiarkPi Environment Setup
+1. ```git clone https://github.com/Aleblazer/qmk_firmware.git```       (clone setup QMK)
+   
+2. ```cd qmk_firmware```                                               (goto QMK directory)
+
+3. ```git branch -v -a```
+
+4. ```git switch zodiarkpi```
+
+5. ```ls ~/Documents/qmk_firmware/keyboards/aleblazer```               (should now see zodiarkpi directory)
+
+6. ```make git-submodule```
+
+7. ```nano keyboards/aleblazer/zodiarkpi/zodiarkpi.c```                (comment/uncomment to match your display & encoders)
+
+8. ```qmk flash -kb aleblazer/zodiarkpi -km gc9a01cirque```            (make sure you can compile & flash - gc9a01cirque in this case)   
+
+&nbsp;
+
+### QMK Sound Code
 1. Copy github ```sound``` directory to ```qmk_firmware/keyboards/aleblazer/zodiarkpi/```
 
 2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I<sup>2</sup>C pins)
