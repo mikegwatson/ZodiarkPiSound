@@ -40,7 +40,7 @@ Hidden Buzzer:<br>
 #define HAL_USE_I2C TRUE
 ```
 
-4. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/mcuconf.h```     (add or uncomment the below lines to use IC20)
+4. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/mcuconf.h```     (add the below lines to use IC20)
 ```
 #undef RP_I2C_USE_I2C0
 #define RP_I2C_USE_I2C0 TRUE
