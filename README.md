@@ -51,6 +51,7 @@ Hidden Buzzer:<br>
 git clone https://github.com/mikegwatson/ZodiarkPiSound.git
 cd ZodiarkPiSound
 mv ./sound keyboards/aleblazer/zodiarkpi/                       //sound dir includes qwiic_buzzer.c qwiic_buzzer.h
+sudo rm -r ZodiarkPiSound
 ```
 ```ls qmk_firmware/keyboards/aleblazer/zodiarkpi/``` should now see: **images/ keymaps/ sound/** directories.
 
