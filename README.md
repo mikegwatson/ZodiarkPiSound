@@ -93,11 +93,10 @@ sound_effect_0(VOLUME_MID);                                      //play startup 
 #include "../../sound/qwiic_buzzer.h"
 ```
 
-9. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/keymaps/default/keymap.c``` (play a sound every time a key is pressed)
+9. Recompile / Flash the new code for your Zodiark Pi and if all worked properly you should hear a sound on bootup of your keyboard.
+   You can add additional code to your keymap file, so that every time a key is pressed you can play a sound by calling the below function:
 ```
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {  
-  sound_effect_2(VOLUME_MAX)
-}
+bool process_record_user(uint16_t keycode, keyrecord_t *record) 
 ``` 
 
 &nbsp;
