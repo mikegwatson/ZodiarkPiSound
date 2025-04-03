@@ -53,7 +53,7 @@ cd ZodiarkPiSound
 mv ./sound keyboards/aleblazer/zodiarkpi/                       //sound dir includes qwiic_buzzer.c qwiic_buzzer.h
 sudo rm -r ZodiarkPiSound
 ```
-```ls qmk_firmware/keyboards/aleblazer/zodiarkpi/``` should now see: **images/ keymaps/ sound/** directories.
+```ls qmk_firmware/keyboards/aleblazer/zodiarkpi/``` should now see: **images/ keymaps/ sound/** directories
 
 2. Edit ```qmk_firmware/keyboards/aleblazer/zodiarkpi/config.h```      (add or uncomment the below lines to set RP2040 I<sup>2</sup>C pins)
 ```
@@ -101,7 +101,7 @@ sound_effect_0(VOLUME_MID);                                     //play startup s
 ```
 
 9. Recompile / flash the new code for your Zodiark Pi and if all worked properly you should hear a sound on bootup of your keyboard.
-   You can also add additional code to your keymap file to play sounds using ```process_record_user(uint16_t keycode, keyrecord_t *record)```. 
+   You can also add additional code to your keymap.c file to play sounds using ```process_record_user(uint16_t keycode, keyrecord_t *record)``` 
 
 &nbsp;
 
